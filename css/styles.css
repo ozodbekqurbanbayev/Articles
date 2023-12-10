@@ -1,21 +1,196 @@
+body{
+  color: #666;
+  font-family: "Roboto Condensed";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
 .container{
-  max-width: 1240px;
+  width: 100%;
+  max-width: 1280px;
   padding-left: 20px;
   padding-right: 20px;
   margin-left: auto;
   margin-right: auto;
 }
-/* SITE-LEFT-MAIN  */
+.site-display{
+  display: flex;
 
-.site-left-main{
-width: 600px;
-height: 782px;
-background-image: url("../img/left-bg.jpg");
-background-repeat: no-repeat;
-background-size:contain;
-background-attachment: fixed;
+}
+
+/* SITE-LEFT-MAIN */
+.site-left-main {
+  background-image: url("../img/fon_rasmi.jpg");
+  background-repeat: no-repeat;
+  background-size: 600px 782px;
+  background-position:center center;
+
+}
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) {
+ .site-left-main{
+  background-image: url("../img/fon_rasmi@2x.jpg");
+ }
+
+}
+.site-left-main-content {
+display: block;
+justify-content: center;
+align-items: center;
+  padding-top: 326px;
+  padding-bottom: 326px;
+  padding-left: 158px;
+  padding-right: 157px;
+  padding-right: auto;
+}
+.site-left-main-content-heading {
+
+  color: #fff;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  font-family:"Bebas Neue";
+  line-height: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.site-left-main-content-heading{
+width: 285px;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 24px;
+}
+.site-left-main-content-link{
+  text-decoration: none;
+  text-transform: uppercase;
+  color:#fff;
+
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+font-family:" Bebas Neue";
+line-height: 24px; /* 150% */
+letter-spacing: 2px;
+padding: 12px 24px;
+background-color: #1E90FF;
+}
+.site-left-main-content-link:hover{
+  opacity: 0.8;
+}
+.site-left-main-content-link:active{
+background-color: rgba(30, 144, 255, 0.60);
+}
+/* SITE-RIGHT-MAIN */
+.site-right-main{
+  width: 600px;
+  margin-left: 54px;
+
+}
+.site-right-main-heading{
+  width: 492px;
+padding-top: 54px;
+color: #222;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+font-family: "Bebas Neue";
+line-height: normal;
+letter-spacing: 2px;
+text-transform: uppercase;
+border-bottom: 1px solid #999;
+padding-bottom: 24px;
+}
+.site-right-main-img{
+  width: 165px;
+  height: 90px;
+  object-fit: cover;
+  border-radius: 4px;
+  margin-right: 16px;
+  margin-bottom: 10px;
+}
+.site-right-main-section-display{
+  display: flex;
+
+}
+.site-right-main-link-text{
+  margin: 0;
+  padding: 0;
+
+  width: 307px;
+  color: #222;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 2px;
+font-family: "Bebas Neue";
+text-transform: uppercase;
+text-decoration: none;
 
 
+}
+.site-right-main-link-text:hover{
+color: #1E90FF;
+
+}
+.site-right-main-link-text:active{
+opacity: 0.6;
+}
+.icon-display{
+  width: 307px;
+  margin-top: 4px;
+  display: flex;
+  justify-content:flex-start;
 
 
+}
+.icon-display{
+  margin: 0;
+  margin-bottom: 58px;
+}
+.site-right-main-icon-clock{
+  display: flex;
+}
+.site-right-icon-clock{
+  width: 20px;
+  height: 20px;
+  margin-right: 4px;
+}
+.icon-item{
+  margin-right: 24px;
+}
+.site-right-icon-koz{
+  width: 16px;
+  height: 16px;
+  margin-right: 4px;
+
+}
+
+.site-right-main-link-button{
+  margin-top: 33px;
+  display:block;
+text-decoration: none;
+text-align: center;
+color: #FFF;
+font-family: 'Roboto Condensed';
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+border-radius: 4px;
+background-color: #1E90FF;
+padding: 12px;
+}
+.site-right-main-link-button:hover{
+  opacity: 0.8;
+}
+.site-right-main-link-button:active{
+  opacity: 0.6;
 }
